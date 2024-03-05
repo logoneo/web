@@ -1,0 +1,35 @@
+#nav-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500px;
+  height: 100%;
+  z-index: 1;
+  background-color: var(--secondary-1);
+  transform: translate(-100%);
+  transition: all 0.3s;
+}
+
+#nav-menu.active {
+  transform: translate(0);
+  transition: all 0.3s;
+}
+
+.menu-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  height: 100%;
+  padding: 2rem;
+  font-size: 2rem;
+  color: var(--primary-1);
+  transition: all 0.3s;
+}
+.menu-inner a {
+  transition: all 0.3s;
+}
+
+.menu-inner a:hover {
+  background-color: var(--primary-1);
+  color: var(--secondary-1);
+}
