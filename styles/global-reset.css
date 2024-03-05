@@ -1,0 +1,63 @@
+/* Reset CSS */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+/* Remove list styles on ul, ol elements */
+ul,
+ol {
+    padding: 0;
+    list-style: none;
+}
+
+/* Remove default padding */
+html {
+    padding: 0;
+}
+
+/* Remove default vertical scroll bar */
+body {
+    overflow-y: scroll;
+}
+
+/* Set core body defaults */
+body {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Remove hyperlink decoration */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remove underline on active links */
+a:focus,
+a:hover {
+    outline: 0;
+}
+
+/* Define border properties */
+img,
+fieldset {
+    border: 0;
+}
