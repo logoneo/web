@@ -1,0 +1,12 @@
+{
+  "people": [
+    {
+      "name": "Person Mcperson",
+      "info": "This person knows fotball a lot."
+    },
+    {
+      "name": "Berlin Batman",
+      "info": "The german version of batman is much cooler."
+    }
+  ]
+}
